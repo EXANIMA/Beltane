@@ -1,0 +1,15 @@
+<?php
+
+	function bogart($x){
+		for ($number = 1; $number <= $x; $number++) {
+			for ($number2 = 1; $number2 <= $number; $number2++) {
+				echo '1';
+			}	 
+			echo '<br/>';
+		}	
+	}
+
+
+	echo bogart(10);
+?>
+
